@@ -51,7 +51,7 @@ export default function AdminPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@dinartr.com"
+                  placeholder="email"
                   required
                 />
               </div>
@@ -62,7 +62,7 @@ export default function AdminPage() {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="Admin@123"
+                  placeholder="password"
                   required
                 />
               </div>
